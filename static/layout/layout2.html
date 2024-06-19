@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout2</title>
+    <link rel="stylesheet" href="../_assets/amis-sdk/sdk.css"/>
+    <link rel="stylesheet" href="../_assets/amis-sdk/helper.css"/>
+    <link rel="stylesheet" href="../_assets/amis-sdk/iconfont.css"/>
+</head>
+<body>
+<div id="root" class="app-wrapper"></div>
+<script src="../_assets/amis-sdk/sdk.js"></script>
+<script>
+  let amis = amisRequire('amis/embed');
+  amis.embed('#root', {
+    type: 'page',
+    body: 'Hello, world!'
+  })
+</script>
+</body>
+</html>
